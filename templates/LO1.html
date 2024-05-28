@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Learning Outcome 2</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styleNavLOs.css') }}">
+    <script src="https://use.typekit.net/ehh4lya.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="navbar-menu">
+            <li class="navbar-item"><a href="{{ url_for('index') }}">Home</a></li>
+            <li class="navbar-item"><a href="{{ url_for('lo1') }}">LO1</a></li>
+            <li class="navbar-item"><a href="{{ url_for('lo2') }}">LO2</a></li>
+            <li class="navbar-item"><a href="{{ url_for('lo3') }}">LO3</a></li>
+            <li class="navbar-item"><a href="{{ url_for('lo4') }}">LO4</a></li>
+            <li class="navbar-item"><a href="{{ url_for('lo5') }}">LO5</a></li>
+        </ul>
+    </nav>
+
+    <section class="section section--lo" id="lo2">
+        <div class="section__inner">
+            <div class="block">
+                <h2>Learning Outcome 1</h2>
+                <p class="lead">Media Interactive Products</p>
+                <!-- Example of adding a project -->
+                <div class="project">
+                    <img src="../static/images/containerNatArtWebIt1.png" alt="Project Image">
+                    <div class="project-text">
+                        <h3>Project Branding</h3>
+                        <p> I conducted user research and created the brand identity for an artist named Natalie. This included the first iteration of the website design and a logo design iteration. This project involved orienting myself in current design trends and technologies, creating interactive prototypes, and testing with users and stakeholders.</p>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="../static/images/HiddenSpots.png" alt="Project Image">
+                    <div class="project-text">
+                        <h3>Media Campaign</h3>
+                        <p> With my group, I created a media campaign for Explore Breda. I developed ideas such as AI-generated QR codes, filmed campaign videos, and performed SEO keyword research. The project involved orienting in media landscapes, designing interactive content, and testing ideas with the target market.</p>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="project-text">
+                        <h3>Faces Everywhere</h3>
+                        <p> I learned how cameras work and took pictures of objects resembling faces around.</p>
+                    </div>
+                </div>
+        </div>
+
+    </section>
+</body>
+</html>
+

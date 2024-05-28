@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Learning Outcome 2</title>
+
+    <meta charset="UTF-8">
+    <title>Learning Outcome 2</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styleNavLOs.css') }}">
+    <script src="https://use.typekit.net/ehh4lya.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="navbar-menu">
+            <li class="navbar-item"><a href="{{ url_for('index') }}">Home</a></li>
+            <li class="navbar-item"><a href="{{ url_for('lo1') }}">LO1</a></li>
+            <li class="navbar-item"><a href="{{ url_for('lo2') }}">LO2</a></li>
+            <li class="navbar-item"><a href="{{ url_for('lo3') }}">LO3</a></li>
+            <li class="navbar-item"><a href="{{ url_for('lo4') }}">LO4</a></li>
+            <li class="navbar-item"><a href="{{ url_for('lo5') }}">LO5</a></li>
+        </ul>
+    </nav>
+
+    <section class="section section--lo" id="lo2">
+        <div class="section__inner">
+            <div class="block">
+                <h2>Learning Outcome 4</h2>
+                <p class="lead">Professional Standart</p>
+                <div class="project">
+                    <div class="project-text">
+                        <h3>Presentation Skills/Projects</h3>
+                        <p> I presented more than one part for each project i took part in, in final presenations as in updates on thursdays.</p>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="../static/images/SEO.png" alt="Project Image">
+                    <div class="project-text">
+                        <h3>SEO Research/Project 3</h3>
+                        <p> For Project three i performed an extensive SEO research to make sure what locals where interested in breda, making sure to acomplish the objective of the client.</p>
+                    </div>
+                </div>
+    </section>
+</body>
+</html>
